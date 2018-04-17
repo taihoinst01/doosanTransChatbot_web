@@ -1,0 +1,56 @@
+﻿body{background:url(../image/chatbotStyle/bg01.gif) repeat-x 0 bottom #a5a5a5; margin:0}
+.botBtnPosition{position:absolute;top:35px;left:35px}
+.botStartBtn {border: 1px solid #00aad2; border-radius: 10px;padding: 10px;background-color: #00aad2;color: #FFF;text-decoration:none}
+
+/* chat TOP */
+.chatTitle{background: url("../image/chatbotStyle/ico_toptit.png") no-repeat; height:16px;width:16px; display: inline-block;top: 12px; position: absolute; }
+.chatTitleText{font-size:14px;color:#035483;top: 11px;left:30px; position: absolute;}
+.chatTitleUser{font-size:12px;color:#9ad4e7;top: 13px;left:105px; position: absolute;}
+.topIcon01{background: url("../image/chatbotStyle/btn_down.png") no-repeat;  width:14px;height:2px;display: inline-block;top: 23px; right: 58px;position: absolute} 
+.topIcon02{background: url("../image/chatbotStyle/btn_fsize.png") no-repeat;  width:12px;height:11px;display: inline-block;top: 16px; right: 34px;position: absolute;}
+.topIcon02-1{background: url("../image/chatbotStyle/btn_fsize_02.png") no-repeat;  width:12px;height:11px;display: inline-block;top: 16px; right: 34px;position: absolute;}
+.topIcon03{background: url("../image/chatbotStyle/btn_close.png") no-repeat;  width:12px;height:11px;display: inline-block;top: 16px; right: 10px;position: absolute;}
+.topIcon{width:12px; height:12px;cursor:pointer;margin:6px 1px 0 10px;float:right}
+
+/* chat Status */
+.chatStatus{width:479px;height:76px;top:40px;left:0;background-color:#FFF;position: absolute;padding:10px;border-bottom:1px solid #e4e6e9}
+.chatStatus1{color:#035483;font-size:22px}
+.chatStatus2{color:#2f3032;font-size:12px;margin:5px 0}
+.chatStatus3{color:#00aad2;font-size:12px;margin-left:20px}
+.question{background: url("../image/chatbotStyle/ques.gif") no-repeat;width:13px;height:13px;display: inline-block;position: absolute;left:110px;top:21px}
+.iconUser1{background: url("../image/chatbotStyle/ico_user02.gif") no-repeat;width:15px;height:15px;display: inline-block;position: absolute;left:10px}
+.iconUser2{background: url("../image/chatbotStyle/ico_user.png") no-repeat;width:50px;height:34px;display: inline-block;position: absolute; right:25px;top:40px}
+.iconUser2:hover{background: url("../image/chatbotStyle/ico_user_hover.png") no-repeat;width:50px;height:34px;display: inline-block;position: absolute; right:25px;top:40px;cursor:pointer}
+
+/* chat view (botchat.css 일부 변경) */
+.wc-card{margin-bottom:18px}
+.timeStampBot {font-size: 12px; color: #868a8f;line-height: 15px; text-align: left; background: #f1f3f6;padding-top: 3px !important; position:absolute; bottom:0}
+.timeStampUser {font-size: 12px;color: #868a8f;line-height: 15px;text-align: right;padding-top:3px !important}
+.ac-container{padding:6px !important; border-radius:5px}
+.wc-carousel-item{background-color:#f1f3f6}
+.ac-image > img {cursor:pointer}
+
+/* chat input */
+.chatFormHamburger {background: url("../image/chatbotStyle/btn_menu.png") no-repeat;width: 21px;height: 17px;display: inline-block;position: absolute;top: 17px;left: 14px}
+.chatFormHamburger:hover{background: url("../image/chatbotStyle/btn_menu_hover.png") no-repeat;width:21px;height:17px;display: inline-block;position: absolute;top:17px;left:14px;cursor:pointer}
+.chatFormFile{background: url("../image/chatbotStyle/attach.png") no-repeat;width:19px;height:17px;display: inline-block;position: absolute;top:17px;left:390px}
+.chatFormEmoticon{background: url("../image/chatbotStyle/emo.png") no-repeat;width:19px;height:19px;display: inline-block;position: absolute;top:17px;right:60px;cursor:pointer}
+.chatFormSend{background: url("../image/chatbotStyle/btn_send.png") no-repeat;width:32px;height:32px;display: inline-block;position: absolute;top:9px;right:15px}
+.chatFormSend:hover{background: url("../image/chatbotStyle/btn_send_hover.png") no-repeat;width:32px;height:32px;display: inline-block;position: absolute;top:9px;right:15px;cursor:pointer}
+
+/* chat footer */
+.chatFooter{width:499px;height:84px;background-color:#e4e6e9;bottom:0;position:absolute}
+.chatFooterIcon1{background: url("../image/chatbotStyle/f_btn_01.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;left:15px;position: absolute;}
+.chatFooterIcon1:hover{background: url("../image/chatbotStyle/f_btn_01_hover.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;left:15px;position: absolute;cursor:pointer}
+.chatFooterIcon2{background: url("../image/chatbotStyle/f_btn_02.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;left:165px;position: absolute;}
+.chatFooterIcon2:hover{background: url("../image/chatbotStyle/f_btn_02_hover.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;left:165px;position: absolute;cursor:pointer}
+.chatFooterIcon3{background: url("../image/chatbotStyle/f_btn_03.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;left:229px;position: absolute;}
+.chatFooterIcon3:hover{background: url("../image/chatbotStyle/f_btn_03_hover.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;left:229px;position: absolute;cursor:pointer}
+.chatFooterIcon4{background: url("../image/chatbotStyle/f_btn_04.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;right:165px;position: absolute;}
+.chatFooterIcon4:hover{background: url("../image/chatbotStyle/f_btn_04_hover.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;right:165px;position: absolute;cursor:pointer}
+.chatFooterIcon5{background: url("../image/chatbotStyle/f_btn_05.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;right:15px;position: absolute;}
+.chatFooterIcon5:hover{background: url("../image/chatbotStyle/f_btn_05_hover.png") no-repeat;  width:42px;height:42px;display: inline-block;bottom:21px;right:15px;position: absolute;cursor:pointer}
+
+/* popup Area */
+.popupArea{opacity:0;position: absolute;display:none;background-color:#000;z-index:999;top:27%;left:50%;transform:translateX(-50%) translateY(-25%)}
+.popBody{cursor:pointer}
